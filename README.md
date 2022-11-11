@@ -1,1 +1,1 @@
-# MessageInitialization
+# 测试项目启动时，完成常数变量的初始化
