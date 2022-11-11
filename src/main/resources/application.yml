@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://127.0.0.1/testlibrary?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
